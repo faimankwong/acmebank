@@ -34,5 +34,12 @@ Run the Application
 ```sh
 mvn exec:java -Dexec.mainClass="com.acmebank.accountmanager.AccountManagerApplication"
 ```
+Technical Document
+
+
+acmebank_account_technical_document_v1
+https://github.com/faimankwong/acmebank/blob/main/acmebank_account_technical%20document_v1.docx
+
+
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
