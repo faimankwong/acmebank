@@ -90,9 +90,17 @@
                 <configuration>
                      <testSourceDirectory>src/test/groovy</testSourceDirectory>
                     <includes>
-                        <include>**/*Specification.groovy</include>
+                        <include>**/*Spec.groovy</include>
                         <include>**/*Test.groovy</include>
                     </includes>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.0.0</version>
+                <configuration>
+                    <mainClass>com.acmebank.accountmanager.AccountManagerApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>

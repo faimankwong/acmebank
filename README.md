@@ -13,17 +13,18 @@ The Account Validator Application is a Java-based system designed to validate an
 
 ## Prerequisites
 
-- Java 8 or higher
+- Java 17
 - Maven 3.x or higher
 
 ## Getting Started
 
 ### Clone the Repository
 
-    ```sh
-git clone https://github.com/your-username/account-validator.git
-cd account-validator
+Please Request Access
+```sh
+git clone https://github.com/faimankwong/acmebank.git
 ```
+
 Build the Project
 ```sh
 mvn clean install
@@ -32,11 +33,6 @@ mvn clean install
 Run the Application
 ```sh
 mvn exec:java -Dexec.mainClass="com.acmebank.accountmanager.AccountManagerApplication"
-```
-
-Run the Tests
-```sh
-mvn test
 ```
 License
 This project is licensed under the MIT License. See the LICENSE file for details.

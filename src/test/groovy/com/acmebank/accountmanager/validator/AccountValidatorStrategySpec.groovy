@@ -1,4 +1,4 @@
-package validator
+package com.acmebank.accountmanager.validator
 
 import com.acmebank.accountmanager.exception.AccountNotExistException
 import com.acmebank.accountmanager.exception.InsufficientBalanceException
